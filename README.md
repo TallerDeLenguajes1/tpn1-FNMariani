@@ -1,4 +1,4 @@
-## Archivo .gitignore
+## Punto 1) Archivo .gitignore
 
 ### ¿Porqué es conveniente incluirlo?
 - Para reducir el uso de espacio. 
@@ -26,3 +26,9 @@
   1. Creamos el archivo .gitignore.
   2. Editamos el archivo incluyendo las carpetas, archivos o extensiones a ignorar.
   3. Agregamos el mismo al repositorio.
+
+## Punto 2) Respuestas
+ * Si resolvió correctamente los puntos ii y iii notará que el resultado es el mismo. ¿a qué se debe? 
+   * Esto se debe a que el puntero "guarda" la direccion de memoria de la variable. Y en el punto iii a través del ampersand, obtenemos y mostramos la dirección de memoria de la variable. Si está bien declarado el puntero, deberían ser iguales.
+ * ¿Qué obtiene en el punto 4? ¿es igual a los anteriores? ¿por qué?
+   * En el punto 4, obtenemos la dirección de memoria del puntero, la cual no es ni debe ser igual a los anteriores. Esto es porque el puntero es otra variable, por lo tanto tiene que tener una dirección de memoria distinta.
